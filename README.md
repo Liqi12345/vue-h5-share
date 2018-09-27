@@ -6,19 +6,7 @@ share_1文件夹是微信内不可用，但是在其他浏览器，可以直接�
 	npm install qrcode --save          //微信二维码生成
 ```
 
-
-
-share_2文件夹都可用，但是需要输入账号密码
-
-在index.html 引入
-
-```html
- <script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
-```
-
-
-
-
+share_2文件夹都可用，但是需要qq分享需要输入账号密码
 
 可以根据项目需求，通过以下代码判断：如果在微信浏览器，用文件二，否则用文件一
 
@@ -33,3 +21,4 @@ function isWeiXin(){
 } 
 ```
 
+share_3文件夹，share1 和  share2 组合版

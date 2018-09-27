@@ -1,0 +1,166 @@
+main{
+    padding: 0;
+}
+.ewm{
+    width: 2.35rem;
+    height: 2.35rem;
+    margin: 10% auto;
+}
+.q_h{
+    width: 1.88rem;
+    height: 1.88rem;
+    margin: 7% auto ;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.qzj{
+	font-size: 0.24rem;
+}
+.qzj img{
+	width: 0.82rem !important;
+    height: 0.82rem !important;
+    border-radius: 10%;
+    margin-bottom: 0.1rem;
+}
+.q_app{
+	float: left;
+    width: 99%;
+    margin: 0.8rem auto;
+    /*height: 2rem;*/
+    box-sizing: border-box;
+    padding: 0 1.1rem;
+    /*background-image:-webkit-linear-gradient(left, #282c3c1f 0%, #0c0f176e 35% ,#0b1121ad 75%,#282c3c1f 100%)*/
+}
+.bsqq{
+    /*background-image: url("../../../assets/images/icon_QQ.png");*/
+    background-position: center center;
+    background-size: cover;
+    width: 0.82rem;
+    height: 1.18rem;
+    margin: 0px 0.4rem;
+}
+.bds_tsina{
+    display:none;
+    /*background-image: url('../../../assets/images/icon_weibo.png');*/
+    background-position: center center;
+    background-size: cover;
+    width: 0.82rem;
+    height:1.18rem;
+    margin: 0 0.4rem;
+}
+.aa{
+    display:none;
+    /*background-image: url('../../../assets/images/icon_weixin.png');*/
+    background-position: center center;
+    background-size: cover;
+    width: 0.82rem;
+    height:1.18rem;
+    margin: 0 0.4rem;
+}
+.app_share{
+    display:none;
+    background-image: url('../../../assets/images/app_share.png');
+    background-position: center center;
+    background-size: cover;
+    position: fixed;
+    right: 0;top: 1rem;
+    margin: 0.4rem 0.4rem 0;
+}
+.aaa{
+    display: block;
+}
+
+/*@media screen and (min-width: 376px) and (max-width: 414px) {
+	.q_app{
+		margin: 10rem 0 0 0;
+	}
+}
+@media screen and (min-height: 737px) and (max-height: 812px) {
+	.q_app{
+		margin: 12.5rem 0 0 0;
+	}
+}*/
+.q_app a{
+    display: block;
+    width: 0.82rem;
+    height: 1.2rem;
+    float: left;
+    margin: 0 0.4rem 0 0;
+}
+.titleImg_z,.titleImg_z2{
+    width: auto;
+    height: 3.25rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+.titleImg_z2{
+    height: 4.66rem;
+    margin-top: 1.2rem;
+}
+.consTitle_z{
+    height: 0.43rem;
+    width: auto;
+    margin: 0 auto;
+}
+.share_z{
+    background-image: url('../../../assets/images/blueBg.png');
+    height: 100%!important;
+    top: 0;
+    width: 100%!important;
+    background-size: cover;
+    background-position: center;
+}
+.share_z2{
+    background-image: url('../../../assets/images/greenBg.png');
+    height: 100%!important;
+    top: 0;
+    width: 100%!important;
+}
+.cons_z{
+    width: auto;
+    height: 2.03rem;
+    margin: 0.2rem auto;
+}
+.jsq_z{
+    font-size: 0.24rem;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+#qrcode{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 6rem;
+    height: 6.5rem;
+    background-color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+}
+#qrcode img{
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem auto;
+}
+#qrcode img.closeBtndwz{
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    right: 0.15rem;
+    top: -0.3rem;
+}
+#qrcode span{
+    font-size: 0.26rem;
+    text-align: center;
+    color: #333;
+}
+.wzShare{
+    font-size: 0.26rem;
+}
+.bdsharebuttonbox{
+    zoom: 1;
+}

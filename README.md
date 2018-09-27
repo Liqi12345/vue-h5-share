@@ -22,3 +22,4 @@ function isWeiXin(){
 ```
 
 share_3文件夹，share1 和  share2 组合版
+
